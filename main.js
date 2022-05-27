@@ -177,7 +177,6 @@ function printFurniture(Number) {
             
         }
     }
-    
 }
 
 
