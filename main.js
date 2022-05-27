@@ -103,3 +103,81 @@
 // }
 // nevsu()
 
+// function bugdetails() {
+//     var userNumber = +prompt("enter a number")
+//     for (var i = 0; i < userNumber; i++) {
+//         var bug ={
+//             bugName:prompt("enter bug name"),
+//             scienceBug:prompt("enter bug science"),
+//             NumberBugLegs:+prompt("enter bug legs number"),
+//             doseHaveWings:confirm("dose the bug have wings? Yes/No")
+//         } 
+//         if (bug.doseHaveWings==true) {
+//             document.write("<h3>"+bug.bugName+"</h3>"+"<h3>"+bug.scienceBug+"</h3>"+"<h3>"+bug.NumberBugLegs+"</h3>"+"<h3>"+bug.doseHaveWings+"</h3>")     
+//         }
+//     } 
+// }
+// bugdetails()
+
+// function printchildren() {
+//     var userNumber = +prompt("enter number")
+//     for (var i = 0; i < userNumber; i++) {
+//         var child = {
+//             fallName:prompt("enter your full name"),
+//             age:+prompt("enter your age"),
+//             doseHeInKinderGarden:confirm("dose he in kinder Garden")
+//         }  
+//         if (child.age>4) {
+//             document.write("<p>"+child.fallName+"</p>"+"<p>"+child.age+"<p>"+"<p>"+child.doseHeInKinderGarden+"</p>") 
+//         }  
+//     }
+// }
+// printchildren()
+
+// function printcomputerdetails(Number) {
+//     var Number = +prompt("enter a number")
+//     for (var i = 0; i <Number; i++) {
+//         var computer ={
+//             company:prompt("enter computer company"),
+//             modele:prompt("enter modele company"),
+//             weight:+prompt("enter weight company"),
+//             stock:confirm("dose the computer in stock"),
+//         }
+//         if (computer.stock==true&computer.weight>2) {
+//             document.write("<p>"+computer.company+" "+computer.modele+" "+computer.weight+" "+computer.stock+"</p>")
+//         }
+//     }
+// }
+// printcomputerdetails()
+
+// function printTeacherDetails(Number) {
+//     var Number = +prompt("enter a Number")
+//     for (var i = 0; i < Number; i++) {
+//         var Teacher = {
+//             fullName:prompt("enter your full name"),
+//             payment:prompt("enter your payment"),
+//             email:prompt("enter your email"),
+//             yearbirth:prompt("enter your year birth"),
+//         }        
+//         if (Teacher.payment>100||Teacher.yearbirth<1990) {
+//             document.write("<span>"+Teacher.fullName+Teacher.payment+Teacher.payment+Teacher.email+Teacher.yearbirth+"</span>"+"<br>")   
+//         }
+//     }
+// }
+// printTeacherDetails()
+
+function printFurniture(Number) {
+    var Number = +prompt("enter a number")
+    for (var i = 0; i < Number; i++) {
+        var furniture = {
+            furnitureName:prompt("enter furniture name"),
+            furnitureBrand:prompt("enter furniture brand"),
+            furnitureStores:prompt("enter furniture store"),
+            furniturePrice:prompt("enter furniture price"),
+            
+        }
+    }
+    
+}
+
+
