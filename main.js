@@ -180,15 +180,47 @@
 // }
 // printFurniture()
 
-function printApparment(myNumber) {
-    var myNumber = +prompt("enter a number")
-    for (var i = 0; i < myNumber; i++) {
-        var apparment = {
-            apparmentAddress:("enter apparment address"),
-            apparmentRentPrice:("enter apparment rent price"),
-            apparmentBuyPrice:("enter apparment buy price"),
-            apparmentIntrestedPeople:[prompt("enter the names of poeple who intrested in the apparment")],
-            apparmentMediation:confirm("dose have mediation?")
+// function printApparment(myNumber) {
+//     var myNumber = +prompt("enter a number")
+//     for (var i = 0; i < myNumber; i++) {
+//         var apparment = {
+//             apparmentAddress:prompt("enter apparment address"),
+//             apparmentRentPrice:+prompt("enter apparment rent price"),
+//             apparmentBuyPrice:+prompt("enter apparment buy price"),
+//             apparmentIntrestedPeople:[prompt("enter the names of poeple who intrested in the apparment")],
+//             apparmentMediation:confirm("dose have mediation?")
+//         } 
+//         if (apparment.apparmentMediation==false) {
+//             document.write(apparment.apparmentAddress+"<br>"+apparment.apparmentIntrestedPeople+"<br>")
+//         }       
+//     }
+// }
+// printApparment()
+
+// function printStates() {
+//     var userNumber = +prompt("enter a number")
+//     for (var i = 0; i < userNumber; i++) {
+//         var state ={
+//             stateName:prompt("enter state name"),
+//             stateResidents:prompt("enter state residents"),
+//             stateCities:[prompt("enter state cities")],
+//             doseItHaveBietHabad:confirm("Dose it heve Biet habad"),
+//         }        
+//         if (state.doseItHaveBietHabad==true) {
+//             document.write("<br>"+state.stateName+"<br>"+state.stateCities+"<br>")
+//         }
+//     }
+// }
+// printStates()
+
+function printMovie() {
+    var userNumber = +prompt("enter a number")
+    for (var i = 0; i < userNumber; i++) {
+        var movies = {
+            movieName:prompt("enter movie name"),
+            movieNumberViews:prompt("enter movie VIEWS"),
+            movieYear:prompt("enter movie year"),
+            moviepicture:img,
         }        
     }
     
