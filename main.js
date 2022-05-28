@@ -218,8 +218,8 @@ function printMovie() {
     for (var i = 0; i < userNumber; i++) {
         var movies = {
             movieName:prompt("enter movie name"),
-            movieNumberViews:prompt("enter movie VIEWS"),
-            movieYear:prompt("enter movie year"),
+            movieNumberViews:+prompt("enter movie VIEWS"),
+            movieYear:+prompt("enter movie year"),
             moviepicture:img,
         }        
     }
