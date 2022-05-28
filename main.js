@@ -166,17 +166,31 @@
 // }
 // printTeacherDetails()
 
-function printFurniture(Number) {
-    var Number = +prompt("enter a number")
-    for (var i = 0; i < Number; i++) {
-        var furniture = {
-            furnitureName:prompt("enter furniture name"),
-            furnitureBrand:prompt("enter furniture brand"),
-            furnitureStores:prompt("enter furniture store"),
-            furniturePrice:prompt("enter furniture price"),
-            
-        }
-    }
-}
+// function printFurniture(Number) {
+//     var Number = +prompt("enter a number")
+//     for (var i = 0; i < Number; i++) {
+//         var furniture = {
+//             furnitureName:prompt("enter furniture name"),
+//             furnitureBrand:prompt("enter furniture brand"),
+//             furnitureStores:[prompt("enter furniture store avilabele")],
+//             furniturePrice:prompt("enter furniture price"),
+//         }
+//         document.write(furniture.furnitureName+"<br>"+furniture.furnitureStores+"<br>")
+//     }
+// }
+// printFurniture()
 
+function printApparment(myNumber) {
+    var myNumber = +prompt("enter a number")
+    for (var i = 0; i < myNumber; i++) {
+        var apparment = {
+            apparmentAddress:("enter apparment address"),
+            apparmentRentPrice:("enter apparment rent price"),
+            apparmentBuyPrice:("enter apparment buy price"),
+            apparmentIntrestedPeople:[prompt("enter the names of poeple who intrested in the apparment")],
+            apparmentMediation:confirm("dose have mediation?")
+        }        
+    }
+    
+}
 
