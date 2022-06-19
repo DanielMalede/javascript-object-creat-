@@ -181,7 +181,6 @@
 // printFurniture()
 
 // function printApparment(myNumber) {
-//     var myNumber = +prompt("enter a number")
 //     for (var i = 0; i < myNumber; i++) {
 //         var apparment = {
 //             apparmentAddress:prompt("enter apparment address"),
@@ -213,16 +212,15 @@
 // }
 // printStates()
 
-function printMovie() {
-    var userNumber = +prompt("enter a number")
-    for (var i = 0; i < userNumber; i++) {
-        var movies = {
-            movieName:prompt("enter movie name"),
-            movieNumberViews:+prompt("enter movie VIEWS"),
-            movieYear:+prompt("enter movie year"),
-            moviepicture:img,
-        }        
-    }
+// function printMovie() {
+//     var userNumber = +prompt("enter a number")
+//     for (var i = 0; i < userNumber; i++) {
+//         var movies = {
+//             movieName:prompt("enter movie name"),
+//             movieNumberViews:+prompt("enter movie VIEWS"),
+//             movieYear:+prompt("enter movie year"),
+//             moviepicture:img,
+//         }        
+//     }
     
-}
-
+// }
